@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_big_bang"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.tuionf.clipdemo.Activity.BigBangActivity">
+
+
+
+    <TextView
+
+        android:id="@+id/tv"
+        android:textColor="#0000FF"
+        android:textSize="90px"
+        android:text="哈哈哈哈哈1111"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        />
+
+    <EditText
+        android:layout_below="@id/tv"
+        android:id="@+id/et"
+        android:textColor="#DC143C"
+        android:text="哈哈哈哈哈"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:layout_below="@id/et"
+        android:id="@+id/btn"
+        android:text="set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
